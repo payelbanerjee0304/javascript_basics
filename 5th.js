@@ -65,9 +65,43 @@ let arr = [1, 2, 3, 4, 5];
 //   //value at each index
 //   console.log(val);
 // });
-arr.forEach((val) => {
-  console.log(val);
-});
-arr.forEach((val, idx, arr) => {
-  console.log(val.toString(), idx, arr);
-});
+// arr.forEach((val) => {
+//   console.log(val);
+// });
+// arr.forEach((val, idx, arr) => {
+//   console.log(val.toString(), idx, arr);
+// });
+//MAP function
+// arr.map((val) => {
+//   console.log(val);
+// });
+//new array using map
+// let newArr = arr.map((val) => {
+//   return val**2;
+// });
+// console.log(newArr);
+//filter method
+// let evenArr = arr.filter((val) => {
+//   return val % 2 === 0;
+// })
+// console.log(evenArr);
+// let greaterThanThreeArr = arr.filter((val) => {
+//   return val > 3;
+// })
+// console.log(greaterThanThreeArr);
+//reduce method
+// const sum = arr.reduce((res, val) => {
+//   return res + val;
+// });
+
+// console.log(sum);
+//maximum using reduce
+// let arrTest = [3, 7, 1, 9, 2, 6];
+// const maximumArr = arrTest.reduce((res, val) => {
+//   if (res > val) {
+//     return res;
+//   } else {
+//     return val;
+//   }
+// });
+// console.log(maximumArr);
