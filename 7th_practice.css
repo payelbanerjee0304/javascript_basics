@@ -1,0 +1,10 @@
+.newBtn{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+.paragraph{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}

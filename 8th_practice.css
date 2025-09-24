@@ -1,0 +1,13 @@
+.dark{
+    background-color: black;
+    color: #fff;
+}
+.light{
+    background-color: #fff;
+    color: #000;
+}
+.spanJs{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(187, 151, 105);
+}
