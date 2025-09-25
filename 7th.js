@@ -19,19 +19,17 @@ div.prepend(head);
 console.log(newBtn.innerText);
 // console.log(newBtn.innerText);
 
-<<<<<<< HEAD
 // after el
 let firstBtn = document.createElement("button"); //create
 firstBtn.innerText = "open";
 div.after(firstBtn);
 //before el
-=======
+
 // append el
 let firstBtn = document.createElement("button"); //create
 firstBtn.innerText = "open";
 div.after(firstBtn);
 //prepend el
->>>>>>> a79e2de6ff62a059ae4529375d933c9ac249807b
 let topHead = document.createElement("h3");
 topHead.innerText = "This is my topHeading";
 topHead.style.color = "orange";

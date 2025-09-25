@@ -28,7 +28,15 @@ btn.addEventListener('click', () => {
 
 let div = document.querySelector('#spanJS');
 let hover = 'hover';
-btn.addEventListener('mouseover', () => {
-    div.classList.remove('spanJs');
+div.addEventListener('mouseover', () => {
+    // div.classList.remove('spanJs');
+    if (hover == "hover") {
+        hover = "not-hover";
+        console.log(hover);
         div.style.backgroundColor = "green";
+    } else {
+        hover = "hover";
+        console.log(hover);
+        div.style.backgroundColor = "rgb(187, 151, 105)";
+    }
 });
